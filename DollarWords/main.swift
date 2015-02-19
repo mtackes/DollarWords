@@ -37,14 +37,14 @@ func printAllWithCount<T>(things: Array<T>) {
     println(things.count)
 }
 
-let wordsURL = NSURL(string: "file:/usr/share/dict/web2")!
+let wordsURL = NSURL(string: "file:/usr/share/dict/words")!
 let wordsString = String(contentsOfURL: wordsURL, encoding: NSUTF8StringEncoding, error: nil)!
 
 let allWords = wordsString.componentsSeparatedByCharactersInSet(.newlineCharacterSet())
 
-original(allWords)
+//original(allWords)
 
-//simpleDispatch(allWords)
+simpleDispatch(allWords)
 
 //dispatchApply(allWords) // Slightly different behavior
 
