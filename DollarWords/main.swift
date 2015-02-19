@@ -42,9 +42,9 @@ let wordsString = String(contentsOfURL: wordsURL, encoding: NSUTF8StringEncoding
 
 let allWords = wordsString.componentsSeparatedByCharactersInSet(.newlineCharacterSet())
 
-//original(allWords)
+original(allWords)
 
-simpleDispatch(allWords)
+//simpleDispatch(allWords)
 
 //dispatchApply(allWords) // Slightly different behavior
 
