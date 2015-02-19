@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75EAE14B1A95A7E200CC0120 /* simpleDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EAE14A1A95A7E200CC0120 /* simpleDispatch.swift */; };
+		75EAE14D1A95A8FB00CC0120 /* dispatchGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EAE14C1A95A8FB00CC0120 /* dispatchGroups.swift */; };
+		75EAE14F1A95A90700CC0120 /* dispatchApply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EAE14E1A95A90700CC0120 /* dispatchApply.swift */; };
 		75F8B8B21A95A0500004B556 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F8B8B11A95A0500004B556 /* main.swift */; };
+		75F8B8BB1A95A4AB0004B556 /* functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F8B8BA1A95A4AB0004B556 /* functional.swift */; };
+		75F8B8BD1A95A59A0004B556 /* original.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F8B8BC1A95A59A0004B556 /* original.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		75EAE14A1A95A7E200CC0120 /* simpleDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = simpleDispatch.swift; sourceTree = "<group>"; };
+		75EAE14C1A95A8FB00CC0120 /* dispatchGroups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dispatchGroups.swift; sourceTree = "<group>"; };
+		75EAE14E1A95A90700CC0120 /* dispatchApply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dispatchApply.swift; sourceTree = "<group>"; };
 		75F8B8AE1A95A0500004B556 /* DollarWords */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DollarWords; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F8B8B11A95A0500004B556 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		75F8B8BA1A95A4AB0004B556 /* functional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = functional.swift; sourceTree = "<group>"; };
+		75F8B8BC1A95A59A0004B556 /* original.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = original.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				75F8B8B11A95A0500004B556 /* main.swift */,
+				75F8B8BC1A95A59A0004B556 /* original.swift */,
+				75EAE14A1A95A7E200CC0120 /* simpleDispatch.swift */,
+				75EAE14E1A95A90700CC0120 /* dispatchApply.swift */,
+				75EAE14C1A95A8FB00CC0120 /* dispatchGroups.swift */,
+				75F8B8BA1A95A4AB0004B556 /* functional.swift */,
 			);
 			path = DollarWords;
 			sourceTree = "<group>";
@@ -119,6 +134,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				75F8B8B21A95A0500004B556 /* main.swift in Sources */,
+				75EAE14B1A95A7E200CC0120 /* simpleDispatch.swift in Sources */,
+				75F8B8BD1A95A59A0004B556 /* original.swift in Sources */,
+				75F8B8BB1A95A4AB0004B556 /* functional.swift in Sources */,
+				75EAE14F1A95A90700CC0120 /* dispatchApply.swift in Sources */,
+				75EAE14D1A95A8FB00CC0120 /* dispatchGroups.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +253,7 @@
 				75F8B8B71A95A0500004B556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
